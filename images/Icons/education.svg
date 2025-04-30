@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Education Icon -->
+  <circle cx="50" cy="50" r="48" fill="#3273DC" opacity="0.1" />
+  
+  <!-- Book -->
+  <rect x="25" y="25" width="50" height="50" rx="3" fill="#3273DC" opacity="0.2" />
+  <path d="M25 25 L25 75 L75 75 L75 25 Z" fill="none" stroke="#3273DC" stroke-width="3" />
+  
+  <!-- Pages -->
+  <path d="M50 25 L50 75" stroke="#3273DC" stroke-width="2" />
+  <path d="M35 35 L45 35" stroke="#3273DC" stroke-width="2" />
+  <path d="M35 45 L45 45" stroke="#3273DC" stroke-width="2" />
+  <path d="M35 55 L45 55" stroke="#3273DC" stroke-width="2" />
+  <path d="M55 35 L65 35" stroke="#3273DC" stroke-width="2" />
+  <path d="M55 45 L65 45" stroke="#3273DC" stroke-width="2" />
+  <path d="M55 55 L65 55" stroke="#3273DC" stroke-width="2" />
+  
+  <!-- Graduation Cap -->
+  <path d="M30 20 L50 10 L70 20 L50 30 Z" fill="#3273DC" />
+  <rect x="48" y="30" width="4" height="10" fill="#3273DC" />
+</svg>
