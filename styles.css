@@ -3981,150 +3981,617 @@ img {
 
 /* --- End New Our Response Section --- */
 
-/* --- Our Response Section --- */
+/* --- End of Problem We Address --- */
 
-/* .our-response-section {
-  background: #fff;
-  padding: 60px 0 40px 0;
+/* Thematic Area Page  */
+
+/* Thematic Areas Page Header */
+.thematic-hero {
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: none;
+  overflow: hidden;
 }
 
-.our-response-title {
-  text-align: center;
+.thematic-hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 89, 149, 0.82) 0%,
+      rgba(50, 115, 220, 0.82) 100%
+    ),
+    url("https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80")
+      center/cover no-repeat;
+  z-index: 1;
+  animation: hero-bg-zoom 18s ease-in-out infinite alternate;
+}
+
+.thematic-hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+
+.thematic-hero-icon {
+  width: 90px;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(4px);
+  animation: hero-icon-float 3.5s ease-in-out infinite;
+  margin-bottom: 0;
+}
+
+.thematic-hero-icon img {
+  width: 54px;
+  height: 54px;
+  filter: drop-shadow(0 2px 8px rgba(50, 115, 220, 0.18));
+  transition: transform 0.3s;
+}
+
+.thematic-hero-title {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  animation: fadeInDown 1.2s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-hero-subtitle {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: 0.92;
+  text-shadow: 0 2px 8px rgba(50, 115, 220, 0.18);
+  animation: fadeInUp 1.2s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+@media (max-width: 700px) {
+  .thematic-hero-content {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+  .thematic-hero-title {
+    font-size: 2rem;
+  }
+  .thematic-hero-icon {
+    width: 70px;
+    height: 70px;
+  }
+  .thematic-hero-icon img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.thematic-areas-title {
   color: var(--secondary-color);
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-  letter-spacing: 0.5px;
+}
+
+/* End of Thematic Area Page  Header  */
+
+/* Thematic Education Section  */
+.thematic-education-section {
+  background: var(--light-color);
+  /* padding: 60px 0 40px 0; */
+}
+
+.thematic-education-container {
+  /* border: 4px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 3rem; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.thematic-education-header {
+  /* border: 8px solid rgb(128, 0, 124); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 200px;
+  margin-bottom: 2rem;
+}
+
+.thematic-education-tag {
+  /* border: 2px solid green; */
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  /* margin-bottom: 0.7rem; */
+  letter-spacing: 7px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   animation: fadeInDown 1.1s cubic-bezier(0.4, 2, 0.6, 1);
 }
 
-.our-response-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 2.5rem;
-  max-width: 1100px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
-}
-
-.our-response-content {
-  flex: 1.2;
-  min-width: 320px;
-  background: #f8fafd;
-  border-radius: 18px;
-  box-shadow: 0 8px 32px 0 rgba(50, 115, 220, 0.08);
-  padding: 2.5rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  animation: fadeInLeft 1.2s cubic-bezier(0.4, 2, 0.6, 1);
-}
-
-.our-response-content h3 {
-  color: var(--primary-color);
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 0.7rem;
-  letter-spacing: 0.5px;
-}
-
-.our-response-content p {
-  font-size: 1.08rem;
+.thematic-education-header p {
+  /* border: 2px solid green; */
+  /* max-width: 45%; */
+  text-align: justify;
+  font-size: 1.13rem;
   color: #444;
-  margin-bottom: 1.1rem;
+  /* margin-bottom: 1.2rem; */
   line-height: 1.7;
 }
 
-.our-response-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.1rem 0;
+.thematic-education-main {
+  /* border: 4px solid yellow; */
   display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
 
-.our-response-list li {
+.thematic-education-image {
+  /* border: 2px solid red; */
   position: relative;
-  padding-left: 1.7em;
-  color: #3273dc;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-left: 1rem;
+  background: #f5f5f5;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 8px 4px 32px 0 rgba(50, 115, 220, 0.08);
+}
+
+.thematic-education-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-education-content {
+  /* border: 2px solid red; */
+  /* flex: 1.2; */
+  min-width: 320px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thematic-education-list h2 {
+  /* border: 2px solid red; */
+  height: auto;
+  /* max-width: 70%; */
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  /* margin-bottom: 1rem; */
+  line-height: 1.2;
+}
+
+.thematic-education-list {
+  /* border: 2px solid red; */
+  /* margin-top: 1.2rem; */
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-education-list h3,
+.thematic-education-impact h3 {
+  /* border: 2px solid red; */
+  color: var(--secondary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.thematic-education-list ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thematic-education-list li {
+  /* border: 4px solid green; */
+  display: flex;
+  align-items: flex-start;
   font-size: 1.05rem;
-  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.7rem;
+  gap: 0.7rem;
+  transition: box-shadow 0.3s, transform 0.3s;
   animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
 }
 
-.our-response-list li:before {
-  content: "\f058";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: var(--primary-color);
-  position: absolute;
-  left: 0;
-  top: 0.1em;
-  font-size: 1.1em;
+.thematic-education-list li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
 }
 
-.our-response-image {
-  flex: 1;
-  min-width: 320px;
-  max-width: 420px;
+.thematic-education-list i {
+  color: var(--secondary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+.thematic-areas-metric {
+  /* border: 4px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 1rem;
+}
+
+.thematic-education-impact {
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  width: 50%;
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-education-impact ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.thematic-education-impact li {
+  /* border: 4px solid deeppink; */
   display: flex;
   align-items: flex-start;
-  justify-content: center;
-  animation: fadeInRight 1.2s cubic-bezier(0.4, 2, 0.6, 1);
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0.7rem;
+  gap: 0.7rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
 }
 
-.our-response-image img {
+.thematic-education-impact li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-education-impact i {
+  color: var(--secondary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+.thematic-education-testimony {
+  /* border: 4px solid blue; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.thematic-education-testimony-img {
+  position: relative;
   width: 100%;
-  height: 400px;
+  height: auto;
+  overflow: hidden;
+  padding-left: 1rem;
+  background: #f5f5f5;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 8px 4px 32px 0 rgba(50, 115, 220, 0.08);
+}
+
+.thematic-education-testimony-img img {
   object-fit: cover;
-  border-radius: 18px;
-  box-shadow: 0 8px 32px 0 rgba(50, 115, 220, 0.13);
-  background: #eee;
-  transition: transform 0.35s cubic-bezier(0.4, 2, 0.6, 1),
-    box-shadow 0.35s cubic-bezier(0.4, 2, 0.6, 1);
-  animation: floatImg 5s ease-in-out infinite alternate;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
 }
 
-.our-response-image img:hover {
-  transform: scale(1.04) rotate(-2deg);
-  box-shadow: 0 16px 48px 0 rgba(255, 89, 149, 0.18);
+.thematic-education-quote {
+  /* border: 3px solid green; */
+  margin-block: 1rem;
+  background: #f5f5f5;
+  border-left: 4px solid var(--primary-color);
+  padding: 1.1rem 1.2rem;
+  font-style: italic;
+  color: #444;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+  /* border-radius: 0 10px 10px 0; */
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
 }
 
-@keyframes floatImg {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
+.thematic-education-quote blockquote {
+  /* border: 3px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+.thematic-education-quote footer {
+  display: block;
+  margin-top: 0.7rem;
+  color: var(--secondary-color);
+  font-size: 0.98rem;
+  font-style: normal;
 }
 
 @media (max-width: 900px) {
-  .our-response-row {
+  .thematic-education-container {
     flex-direction: column;
     gap: 2rem;
     align-items: stretch;
   }
-  .our-response-image,
-  .our-response-content {
-    max-width: 100%;
-    min-width: 0;
-    padding: 0;
+  .thematic-education-image {
+    min-height: 220px;
+    border-radius: 16px 16px 0 0;
   }
-  .our-response-content {
-    padding: 2rem 1.2rem;
+  .thematic-education-image img {
+    height: 220px;
   }
-  .our-response-image img {
-    height: 260px;
+  .thematic-education-content h2 {
+    font-size: 1.7rem;
   }
-} */
+}
 
-/* --- End of Our Response Section --- */
+/* End of Thematic Education Section  */
 
-/* --- End of Problem We Address --- */
+/* Thematic Area Health Section  */
+
+/* Container & layout */
+.thematic-health {
+  /* border: 2px solid red; */
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* Image collage */
+.thematic-health-img {
+  /* border: 2px solid red; */
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+}
+
+.thematic-health-img-top,
+.thematic-health-img-small,
+.thematic-health-img-large {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.thematic-health-bottom-row {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+
+.thematic-health-quote {
+  /* border: 3px solid green; */
+  margin-block: 1rem;
+  background: #f5f5f5;
+  border-left: 4px solid var(--primary-color);
+  padding: 1.1rem 1.2rem;
+  font-style: italic;
+  color: #444;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+  /* border-radius: 0 10px 10px 0; */
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+}
+
+.thematic-health-quote blockquote {
+  /* border: 3px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+.thematic-health-quote footer {
+  display: block;
+  margin-top: 0.7rem;
+  color: var(--secondary-color);
+  font-size: 0.98rem;
+  font-style: normal;
+}
+
+
+
+/* Content area */
+
+.thematic-health-content {
+  /* border: 2px solid red; */
+
+}
+
+.thematic-health-title {
+  /* border: 2px solid red; */
+  padding: 0 1rem;
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.thematic-health-description {
+  /* border: 2px solid red; */
+  padding: 0 1rem;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #636363;
+  margin-bottom: 16px;
+}
+
+/* Features list */
+.thematic-health-features {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  /* padding: 1.1rem 1.2rem 0.7rem 1.2rem; */
+  padding: 0 1rem;
+}
+
+.thematic-health-feature {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-health-feature:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-health-icon {
+  /* border: 2px solid red; */
+  flex: 0 0 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thematic-health-icon i {
+  font-size: 14px;
+}
+
+.thematic-health-text h3 {
+  /* border: 2px solid red; */
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.thematic-health-text p {
+  /* border: 2px solid red; */
+  margin: 0;
+  font-size: 14px;
+  color: #636363;
+}
+
+
+/* Health Sector Impact  */
+
+.thematic-health-impact h3 {
+  /* border: 2px solid red; */
+  color: var(--secondary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+
+.thematic-health-impact {
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+  /* width: 50%; */
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-health-impact ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.thematic-health-impact li {
+  /* border: 4px solid deeppink; */
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0.7rem;
+  gap: 0.7rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-health-impact li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-health-impact i {
+  color: var(--primary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .thematic-health-container {
+    grid-template-columns: 1fr;
+  }
+  .overlay-card {
+    left: 50%;
+    top: 20px;
+  }
+  .thematic-health-title {
+    font-size: 28px;
+  }
+  .thematic-health-description {
+    font-size: 14px;
+  }
+  .thematic-health-text h3 {
+    font-size: 16px;
+  }
+  .thematic-health-text p {
+    font-size: 12px;
+  }
+}
+
+/* End of Thematic Area Health Section  */
+
+/* End of Thematic Area Page  */
 
 /* Footer */
 .footer {
