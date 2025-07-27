@@ -4401,7 +4401,6 @@ img {
   gap: 16px;
 }
 
-
 .thematic-health-quote {
   /* border: 3px solid green; */
   margin-block: 1rem;
@@ -4430,14 +4429,11 @@ img {
   font-style: normal;
 }
 
-
-
 /* Content area */
 
-.thematic-health-content {
-  /* border: 2px solid red; */
-
-}
+/* .thematic-health-content {
+  border: 2px solid red;
+} */
 
 .thematic-health-title {
   /* border: 2px solid red; */
@@ -4512,7 +4508,6 @@ img {
   color: #636363;
 }
 
-
 /* Health Sector Impact  */
 
 .thematic-health-impact h3 {
@@ -4522,7 +4517,6 @@ img {
   font-weight: 700;
   margin-bottom: 0.7rem;
 }
-
 
 .thematic-health-impact {
   /* border: 2px solid red; */
@@ -4590,6 +4584,304 @@ img {
 }
 
 /* End of Thematic Area Health Section  */
+
+/* End of Thematic Area Health Section  */
+
+/* Leadership & Empowerment Section  */
+
+.thematic-empowerment-section {
+  background-color: var(--light-color);
+}
+
+.thematic-empowerment-container {
+  /* border: 2px solid red; */
+}
+
+/* .thematic-area {
+  border: 5px solid green;
+} */
+
+/* .row {
+  border: 5px solid goldenrod;
+} */
+
+/* .thematic-empowerment-content {
+  border: 5px solid yellow;
+} */
+
+.thematic-empowerment-content {
+  /* border: 2px solid hotpink; */
+  /* flex: 1.2; */
+  min-width: 320px;
+  height: auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thematic-empowerment-list {
+  /* border: 2px solid red; */
+  /* margin-top: 1.2rem; */
+  /* height: auto; */
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-empowerment-list h2 {
+  /* border: 2px solid red; */
+  /* height: auto; */
+  /* max-width: 70%; */
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  /* margin-bottom: 1rem; */
+  line-height: 1.2;
+}
+
+.thematic-empowerment-list h3,
+.thematic-empowerment-impact h3 {
+  /* border: 2px solid red; */
+  color: var(--secondary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.thematic-empowerment-list ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thematic-empowerment-list li {
+  /* border: 4px solid green; */
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0.7rem;
+  gap: 0.7rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-empowerment-list li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-empowerment-list i {
+  color: var(--secondary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+.thematic-empowerment-impact h3 {
+  /* border: 2px solid red; */
+  color: var(--secondary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.thematic-empowerment-impact {
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+  /* width: 50%; */
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  /* box-shadow: 0 2px 8px 0 rgba(50, 115, 220, 0.04); */
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-empowerment-impact ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.thematic-empowerment-impact li {
+  /* border: 4px solid deeppink; */
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0.7rem;
+  gap: 0.7rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-empowerment-impact li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-empowerment-impact i {
+  color: var(--secondary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+/* .thematic-empowerment-img {
+  border: 3px solid firebrick;
+} */
+
+/* End of Leadership & Empowerment Section  */
+
+/* Community Section  */
+
+.thematic-community-container {
+  /* border: 6px solid green; */
+}
+
+.thematic-community-content {
+  /* border: 3px solid red; */
+}
+.thematic-community-content h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  /* margin-bottom: 1rem; */
+  line-height: 1.2;
+}
+
+.thematic-community-content h3 {
+  color: var(--secondary-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.thematic-community-content ul {
+  /* border: 3px solid red; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem 0.7rem 1.2rem;
+  box-shadow: 0 4px 24px 0 rgba(50, 115, 220, 0.13);
+}
+
+.thematic-community-content li {
+  padding: 3px 0;
+  color: #333;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeInUp 1.1s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.thematic-community-content li:hover {
+  transform: scale(1.04);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(50, 115, 220, 0.11);
+}
+
+.thematic-community-content i {
+  color: var(--primary-color);
+  font-size: 1.23em;
+  /* min-width: 22px; */
+  margin-top: 3px;
+}
+
+.thematic-community-content strong {
+  color: var(--secondary-color);
+}
+
+.thematic-community-quote footer {
+  /* border: 3px solid red; */
+  margin-top: 4px;
+  color: var(--secondary-color);
+}
+
+/* End of Community Section */
+
+/* Intergrated Approach  */
+
+/* --- New Our Response Section --- */
+
+.integrated-approach-section {
+  background-color: #2d2d3a;
+  color: #eaeaf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.integrated-approach-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  /* margin-bottom: 4rem; */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.integrated-approach-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.055);
+  box-shadow: 0 8px 32px 0 rgba(50, 115, 220, 0.08);
+  width: 100%;
+  /* background-color: #3c3c42af; */
+  background-color: var(--light-color);
+  padding: 3rem ;
+  border-radius: 1.5rem;
+  gap: 1rem;
+  /* border: 4px blue solid; */
+}
+
+.integrated-aprroach-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* flex: 1; */
+  /* background-color: white; */
+}
+
+.integrated-aprroach-img img {
+  /* border: 4px blue solid; */
+  width: 450px;
+  height: 450px;
+}
+
+.integrated-approach-content {
+  /* border: 4px blue solid; */
+  width: 40%;
+  /* max-width: 600px; */
+  /* width: 100%; */
+  /* flex: 1.4; */
+  display: flex;
+  flex-direction: column;
+  /* font-size: 0.9rem; */
+  /* color: #bdbdd1; */
+}
+
+.integrated-approach-content p {
+  /* border: 4px solid red; */
+  margin-bottom: 1rem;
+  font-size: 0;
+  text-align: justify;
+  font-size: 0.9rem;
+  color: var(--dark-color);
+  /* color: #bdbdd1; */
+  line-height: 1.6;
+  max-width: 550px;
+}
+
+/* End of Intergrated Approach  */
 
 /* End of Thematic Area Page  */
 
