@@ -4957,3 +4957,123 @@ img {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+/* -------------------- Programs Page Styles -------------------- */
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.program-card {
+  background: #fff;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.program-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.program-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.program-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-meta {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.6rem;
+  display: flex;
+  gap: 10px;
+}
+
+.program-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  color: var(--primary-color);
+}
+
+.program-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.program-content ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.program-content ul li::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+}
+
+.program-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.initiatives-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.initiative-card {
+  background: #fff;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.initiative-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.initiative-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.initiative-card h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.initiative-card > div:last-child {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.model-diagram img {
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+}
