@@ -283,7 +283,7 @@ img {
   padding: var(--spacing-sm);
 }
 
-.hamburger span {
+.hamburge span {
   display: block;
   width: 25px;
   height: 3px;
@@ -4914,13 +4914,13 @@ img {
 
 /* Introduction Section */
 
-.program-section{
+.program-section {
   background-color: var(--light-color);
 }
 
-.program-header{
-display: flex;
-gap: 4rem;
+.program-header {
+  display: flex;
+  gap: 4rem;
 }
 
 .program-intro-content {
@@ -4935,8 +4935,8 @@ gap: 4rem;
   margin-bottom: var(--spacing-lg);
 }
 
-.program-header-img{
-   /* max-width: 400px; */
+.program-header-img {
+  /* max-width: 400px; */
   margin: 0 auto;
 }
 
